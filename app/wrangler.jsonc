@@ -1,0 +1,11 @@
+{
+  // Cloudflare Workers, static assets only: the Vite build in dist/ is the whole worker.
+  // The backend is the Convex production deployment baked into the build as VITE_CONVEX_URL.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "same-excuse",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}

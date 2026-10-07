@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "same-excuse",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": ["-c", "cd app && npx convex dev --tail-logs always --start 'vite --port 5173 --strictPort'"],
+      "port": 5173
+    }
+  ]
+}
